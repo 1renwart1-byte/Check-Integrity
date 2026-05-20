@@ -1,258 +1,213 @@
-# Privacy Policy
+# Check Integrity Privacy Policy
 
-**Last Updated:** May 20, 2026
+Last updated: May 20, 2026
 
-## 1. Introduction
+Check Integrity ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information when you use our mobile application (the "App").
 
-Check-Integrity ("we", "us", "our", or "Application") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Android application for device integrity verification and security analysis.
-
-Please read this Privacy Policy carefully. If you do not agree with our policies and practices, please do not use our Application.
+By using the App, you agree to the collection and use of information in accordance with this policy.
 
 ---
 
-## 2. Information We Collect
+# 1. Information We Collect
 
-### 2.1 Device Information
-The Check-Integrity Application collects the following device-related information to perform integrity verification and security analysis:
+## A. Device and System Information
 
-- **Device Model and Manufacturer**
-- **Android OS Version**
-- **Device Security Patch Level**
-- **Device Serial Number** (for identification purposes)
-- **Hardware Information** (processor, RAM, storage details)
-- **System Properties and Build Fingerprints**
-- **Installed Applications List** (package names only)
-- **System Integrity Status** (SafetyNet/Play Integrity verification results)
+To provide device security and integrity analysis services, the App may collect limited technical information about your device, including:
 
-### 2.2 Security Analysis Data
-- Root/Jailbreak detection status
-- Bootloader lock status
-- SELinux enforcement status
-- Verified Boot status
-- Custom ROM detection
+- Non-personal technical identifiers used for integrity verification
+- Device model and manufacturer
+- Android OS version
+- Hardware and system fingerprint information
+- Bootloader and root status
+- System modification indicators
+- Security-related package presence detection
 
-### 2.3 User-Provided Information
-- Manual input during security scans or reports
-- Settings preferences within the Application
+The App only checks for the existence of known package names related to rooting, hooking, debugging, or system modification tools.
 
-### 2.4 Usage Statistics
-- App launch frequency
-- Feature usage patterns
-- Scan completion status
-- Error logs and debugging information
+The App does NOT access:
+- Personal files
+- Photos or videos
+- Messages
+- Contacts
+- Keystrokes
+- Private app content
+
+Most integrity analysis is performed locally on the device.
 
 ---
 
-## 3. How We Use Your Information
+## B. Play Integrity Data
 
-We use the collected information for the following purposes:
+The App uses the Google Play Integrity API to verify that the application is running in a genuine and untampered environment.
 
-1. **Device Integrity Verification** - To analyze and verify the security status of your device
-2. **Security Analysis** - To provide comprehensive security assessment reports
-3. **Application Improvement** - To enhance features, fix bugs, and optimize performance
-4. **Compliance and Legal** - To comply with applicable laws and regulations
-5. **User Support** - To provide technical support and troubleshooting
-6. **Analytics** - To understand usage patterns and improve user experience (anonymized data only)
+Technical information required for integrity verification may be securely transmitted to Google servers as part of the Play Integrity process.
+
+For more information:
+- https://policies.google.com/privacy
 
 ---
 
-## 4. Data Storage and Retention
+# 2. Permissions and Data Usage
 
-### 4.1 Local Storage
-- All device integrity and security scan data is stored locally on your device
-- Data is retained according to your device's storage settings
-- You can delete all stored data by uninstalling the Application or clearing app cache
+## QUERY_ALL_PACKAGES
 
-### 4.2 Cloud Storage (If Applicable)
-- Optional cloud backup features (if available) will store data securely
-- Cloud data is encrypted end-to-end
-- You can disable cloud syncing in Application settings at any time
+Used strictly for:
+- Detecting potentially harmful applications
+- Identifying rooting frameworks
+- Detecting hooking environments
+- Security and integrity verification
 
-### 4.3 Retention Period
-- Local data: Retained until you delete it manually or uninstall the Application
-- Cloud data: Retained for 90 days after deletion unless otherwise specified
-- Temporary logs: Automatically deleted after 30 days
+The App does not use package visibility data for:
+- Advertising
+- User profiling
+- Behavioral tracking
 
 ---
 
-## 5. Data Sharing and Disclosure
+## INTERNET
 
-### 5.1 Third-Party Services
-We may share anonymized, aggregated data with:
-- **Security Vendors** - For threat intelligence and security research
-- **Analytics Providers** - For usage statistics and application improvement
-- **Cloud Service Providers** - For secure data storage (only if cloud features are enabled)
-
-**Personal Device Information is NOT shared** without your explicit consent.
-
-### 5.2 Legal Requirements
-We may disclose your information if required by law or legal process:
-- Court orders
-- Subpoenas
-- Government requests
-- Protection of legal rights
-
-### 5.3 Business Transfers
-If Check-Integrity is involved in a merger, acquisition, or asset sale, your information may be transferred as part of that transaction.
+Used for:
+- Play Integrity verification
+- Security updates
+- Communication with Google Play Services
+- Advertisement delivery through AdMob
 
 ---
 
-## 6. Data Security
+# 3. Third-Party Services
 
-We implement comprehensive security measures to protect your data:
+The App may use trusted third-party services including:
 
-- **Encryption** - AES-256 encryption for sensitive data at rest
-- **Secure Communication** - TLS 1.2+ for all data transmissions
-- **Access Controls** - Restricted access to personal information
-- **Regular Audits** - Security assessments and vulnerability testing
-- **Secure Deletion** - Permanent data deletion when requested
+## Google Play Integrity API
 
-**Note:** While we strive to protect your information, no security system is impenetrable. Transmitting information over the Internet carries inherent risks.
+Used to verify application authenticity and device integrity.
 
----
-
-## 7. User Permissions
-
-Check-Integrity requests specific Android permissions to function properly:
-
-| Permission | Purpose |
-|-----------|---------|
-| `android.permission.READ_PHONE_STATE` | Device identification |
-| `android.permission.GET_PACKAGE_INFO` | System integrity verification |
-| `android.permission.ACCESS_DEVICE_STATE` | Security status detection |
-| `android.permission.QUERY_ALL_PACKAGES` | Installed app analysis |
-| `android.permission.READ_LOGS` | System log analysis |
-| `android.permission.INTERNET` | Cloud sync & updates (optional) |
-
-You can manage these permissions in your Android device settings. Denying certain permissions may limit Application functionality.
+Privacy Policy:
+https://policies.google.com/privacy
 
 ---
 
-## 8. Children's Privacy
+## Google AdMob
 
-Check-Integrity is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we learn that we have collected personal information from a child under 13, we will promptly delete such information.
+AdMob may collect and process:
+- Advertising ID (AAID)
+- Device information
+- Ad interaction metrics
 
----
+This information may be used to:
+- Display advertisements
+- Improve ad performance
+- Prevent fraudulent activity
 
-## 9. Your Privacy Rights
+Users can manage advertising preferences through Android Ads settings.
 
-Depending on your location, you may have the following rights:
-
-### 9.1 Access
-- Request access to your personal data
-- Receive a copy of the information we hold
-
-### 9.2 Correction
-- Request correction of inaccurate data
-- Update outdated information
-
-### 9.3 Deletion
-- Request deletion of your personal data ("Right to be Forgotten")
-- Available unless legal obligations require retention
-
-### 9.4 Portability
-- Request your data in a portable format
-- Transfer data to another service
-
-### 9.5 Opt-Out
-- Disable data collection features
-- Opt-out of analytics and cloud syncing
-
-To exercise these rights, contact us at: **privacy@check-integrity.dev** (replace with actual contact)
+AdMob Privacy Information:
+https://support.google.com/admob/answer/6128543
 
 ---
 
-## 10. California Privacy Rights (CCPA)
+## Firebase Crashlytics (Optional)
 
-If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
+Used for:
+- Crash reporting
+- Stability monitoring
+- Performance diagnostics
 
-- Right to know what personal information is collected
-- Right to know whether personal information is sold or disclosed
-- Right to delete personal information
-- Right to non-discrimination for exercising your CCPA rights
+Collected data is used strictly to improve application stability and reliability.
 
----
-
-## 11. European Privacy Rights (GDPR)
-
-If you are located in the European Union, you have rights under the General Data Protection Regulation (GDPR):
-
-- Right of access to your personal data
-- Right to rectification of inaccurate data
-- Right to erasure ("Right to be Forgotten")
-- Right to restrict processing
-- Right to data portability
-- Right to object to processing
-- Rights related to automated decision-making
+Firebase Privacy:
+https://firebase.google.com/support/privacy
 
 ---
 
-## 12. Third-Party Links
+# 4. How We Use Information
 
-Check-Integrity may contain links to third-party websites and services. This Privacy Policy does not apply to third-party services, and we are not responsible for their privacy practices. We encourage you to review the privacy policies of any third-party service before providing your information.
+Collected information is used only for:
 
----
+- Security and integrity verification
+- Root and tamper detection
+- Detecting insecure environments
+- Providing app functionality
+- Improving app stability
+- Troubleshooting crashes and errors
+- Maintaining service reliability
 
-## 13. Data Processing Agreement
-
-For organizations using Check-Integrity for compliance purposes, a Data Processing Agreement (DPA) can be provided upon request. Contact us for enterprise agreements.
-
----
-
-## 14. Cookies and Similar Technologies
-
-Check-Integrity does not use traditional cookies. However, we may use:
-- **Local Storage** - To store user preferences and settings
-- **Analytics Tokens** - To track anonymized usage patterns
-- **Device Identifiers** - For session management
-
-You can clear this data by uninstalling the Application or clearing app cache.
+We do NOT:
+- Sell user data
+- Profile users
+- Monitor personal activity
+- Record messages or typing activity
+- Collect sensitive personal information
 
 ---
 
-## 15. Changes to This Privacy Policy
+# 5. Data Retention
 
-We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. We will notify you of material changes by:
+Most integrity analysis is performed in real-time and processed locally on the device.
 
-- Updating the "Last Updated" date at the top of this Policy
-- Displaying a prominent notice in the Application
-- Requesting your consent (if required by law)
+We do not permanently store integrity results on private servers.
 
-Your continued use of Check-Integrity after changes constitutes your acceptance of the updated Privacy Policy.
+Limited diagnostic or crash-related information may be temporarily retained for stability and troubleshooting purposes.
 
 ---
 
-## 16. Contact Us
+# 6. Security
 
-If you have questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us:
+We value your trust and implement commercially reasonable security measures to protect transmitted information.
 
-**Email:** privacy@check-integrity.dev  
-**Mail:** Check-Integrity Privacy Team  
-       [Your Address]  
-       [City, State, ZIP]
-
-**Response Time:** We will respond to privacy inquiries within 30 days.
+However, no method of internet transmission or electronic storage is completely secure.
 
 ---
 
-## 17. Complaint Resolution
+# 7. Children's Privacy
 
-If you believe we have violated your privacy rights, you may:
+This App is not intended for children under the age of 13.
 
-1. **Contact Us Directly** - First, reach out with your concerns
-2. **File a Complaint** - With your local data protection authority
-3. **Legal Action** - Pursue legal remedies if necessary
+We do not knowingly collect personally identifiable information from children under 13 years old.
 
----
-
-## 18. International Data Transfers
-
-Your information may be transferred to, stored in, and processed in countries other than your country of residence. These countries may have different data protection standards than your home country. By using Check-Integrity, you consent to such transfers.
-
-If you are located in the EU or EEA, we ensure adequate safeguards through Standard Contractual Clauses.
+If we discover that a child has provided personal information, such information will be deleted immediately.
 
 ---
 
-**End of Privacy Policy**
+# 8. Legal Compliance
 
-*This Privacy Policy is provided as-is and should be customized based on your specific application functionality, jurisdiction, and business practices.*
+The App is designed solely for security and integrity verification purposes.
+
+Collected technical information is not used for:
+- Surveillance
+- Behavioral advertising
+- User tracking
+- Selling data to third parties
+
+Check Integrity does not require root access to function.
+
+---
+
+# 9. Changes to This Privacy Policy
+
+We may update this Privacy Policy periodically.
+
+Changes become effective immediately after being posted on this page.
+
+Users are encouraged to review this Privacy Policy regularly.
+
+---
+
+# 10. Contact Us
+
+If you have questions or concerns regarding this Privacy Policy, please contact:
+
+Developer:
+ARH Community
+
+Email:
+1renwart1@gmail.com
+
+Location:
+Jakarta, Indonesia
+
+---
+
+# 11. Google Play Compliance Statement
+
+This Privacy Policy is provided to comply with Google Play Developer Policy requirements and to explain how Check Integrity handles technical and security-related information.
